@@ -1,0 +1,1044 @@
+<?php
+
+use Twig\Environment;
+use Twig\Error\LoaderError;
+use Twig\Error\RuntimeError;
+use Twig\Extension\SandboxExtension;
+use Twig\Markup;
+use Twig\Sandbox\SecurityError;
+use Twig\Sandbox\SecurityNotAllowedTagError;
+use Twig\Sandbox\SecurityNotAllowedFilterError;
+use Twig\Sandbox\SecurityNotAllowedFunctionError;
+use Twig\Source;
+use Twig\Template;
+
+/* question/helloowners.html.twig */
+class __TwigTemplate_35fcd742dd55275a5bcd21ce9e32a0a73302ff7872ba586bea3076ae61b6b73c extends \Twig\Template
+{
+    private $source;
+
+    public function __construct(Environment $env)
+    {
+        parent::__construct($env);
+
+        $this->source = $this->getSourceContext();
+
+        // line 1
+        $this->parent = $this->loadTemplate("base.html.twig", "question/helloowners.html.twig", 1);
+        $this->blocks = [
+            'body' => [$this, 'block_body'],
+        ];
+    }
+
+    protected function doGetParent(array $context)
+    {
+        return "base.html.twig";
+    }
+
+    protected function doDisplay(array $context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "question/helloowners.html.twig"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "template", "question/helloowners.html.twig"));
+
+        $this->parent->display($context, array_merge($this->blocks, $blocks));
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+    }
+
+    // line 3
+    public function block_body($context, array $blocks = [])
+    {
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e = $this->extensions["Symfony\\Bundle\\WebProfilerBundle\\Twig\\WebProfilerExtension"];
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->enter($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02 = $this->extensions["Symfony\\Bridge\\Twig\\Extension\\ProfilerExtension"];
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->enter($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof = new \Twig\Profiler\Profile($this->getTemplateName(), "block", "body"));
+
+        // line 4
+        echo "
+    <!--Intro Jumbotron-->
+    <div class=\"banner-magin-top\">
+        <div class=\"jumbotron\" style=\"background-image: url(assets/img/home/carusel/slide-3.jpg)\">
+            <div class=\"container\">
+                <div class=\"row\">
+                    <div class=\"col-lg-12\">
+                        <div class=\"intro-body\" style=\"text-align: center\">
+                            <h1 class=\"intro-title\">
+                                <span style=\"color:white;\">HelloOwners </span>
+                            </h1>
+                            <h5 class=\"intro-title\">
+                                <span style=\"color:white;\">Preguntas más frecuentes </span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--End Jumbotron-->
+
+
+    <!--/ Intro Single star /-->
+    <section class=\"question-margin-top\">
+        <div class=\"container\">
+            <div class=\"row\">
+
+                ";
+        // line 35
+        echo "                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Reserva</h1>
+                        <h5>Tengo que pagar algúna comisión por la reserva de habitación o el alquiler de una habitación?</h5>
+                        <span class=\"color-text-a\">
+                           <p>Estas habitaciones no tienen comisión pero, el estudiante deberá abonar los gastos
+                               de formalización de contrato en un unico pago de 90 € (+IVA).</p>
+                        </span>
+                    </div>
+                </div>
+
+                ";
+        // line 47
+        echo "                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Llegada</h1>
+                        <span class=\"color-text-a\">
+                            <p>
+                                Una vez hayas reservado a través de nuestra web recibirás un e-mail de nuestros agentes
+                                para organizar tu llegada. Sigue las indicaciones de nuestros agentes y se de los primeros
+                                en organizar tu llegada con Helloflatmate y evitar agobios.
+                            </p>
+                        </span>
+                        <h5>Si llego al piso el 15 de Septiembre por ejemplo, tengo que pagar todo el mes?</h5>
+                        <span class=\"color-text-a\">
+                           <p>La habitación se cobra por mes entero, si haces una reserva el 25 de Agosto para entrar en la habitación
+                           el 15 de Septiembre hasta el 30 de Junio, se deberá abonar el mes completo ya que pudiera darse el caso de que
+                           hubiera una persona que quisiera entrar antes y la propiedad perdería beneficios.</p>
+                        </span>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Si un FlatMate contrata una habitación el día 15 de un mes para entrar el 16 pagará únicamente
+                               la parte proporcional del mes.
+                           </p>
+                        </span>
+                    </div>
+                </div>
+
+                ";
+        // line 73
+        echo "                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Mi Primer día en el apartamento</h1>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Si has reservado habitación o piso a través de la Web de Helloflatmate te acompañaremos desde el
+                               aeropuerto a tu nuevo piso, explicandote como funcionan las cosas en éste.
+                           </p>
+                            <p>
+                                El estudiante debe avisar a la oficina si al llegar, encuentra algún desperfecto.
+                            </p>
+                            <p>
+                                Si el estudiante, no dice nada en los 3 primeros días, se hace responsable de los desperfectos y carencia
+                                que pudieran ser ocasionadas en el apartamento.
+                            </p>
+                            <p>
+                                Todos los apartamentos estan equipados con el mismo menaje de cocina:
+                            </p>
+                            <ul>
+                                <li>6 Vasos</li>
+                                <li>6 Platos</li>
+                                <li>6 Platos de sopa</li>
+                                <li>6 Platos de postre</li>
+                                <li>6 Tenedores</li>
+                                <li>6 Cuchillos de punta redonda</li>
+                                <li>6 Cuchillos de sierra</li>
+                                <li>6 Cucharas de sopa</li>
+                                <li>6 Cucharas de postre</li>
+                                <li>1 Espátula, cucharón, espumadera</li>
+                                <li>1 Abridor o sacacorchos</li>
+                                <li>2 Ollas</li>
+                                <li>2 Sartenes</li>
+                            </ul>
+
+                            <p>
+                                A la finalización del contrato de los inquilinos, se revisaran las existencias del menaje, siendo
+                                descontada de la fianza de los inquilinos cualquier perdida o rotura del material suministrado.
+                            </p>
+
+                        </span>
+                    </div>
+                </div>
+
+                ";
+        // line 117
+        echo "                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Suministros / Internet</h1>
+                        <h5>Los pisos tienen internet?</h5>
+                        <span class=\"color-text-a\">
+                            <p>Sí, todas las viviendas disponen de Internet wifi 300 megas con la empresa ONO o en su defecto Movistar</p>
+                        </span>
+
+                        <h5>Cómo se realizan los pagos de internet?</h5>
+                        <span class=\"color-text-a\">
+                            <p>
+                                El día de tu llegada es cuando se formaliza el contrato, debes abonar en ese momento
+                                75 € (IVA incluido) por el servicio de internet, que cubrira 5 meses de consumo de internet.
+                                Haciendo entrega de dicha cantidad para que se pueda abonar a la compañía que suministra dicho
+                                servicio.
+                            </p>
+                            <p>
+                                Si tu estancia es de 10 meses deberás abonar 75 € en Septiembre y 75 € en Febrero.
+                            </p>
+                        </span>
+
+                        <h5>Las facturas están incluidad?</h5>
+                        <span class=\"color-text-a\">
+                            <p>Las facturas no están incluidas.</p>
+                            <p>Debes saber que nuestros FlatMates están exento de pago de los gastos comunitarios del edificio
+                                (ascensor, limpieza de la escalera, reparaciones en el edificio, etc..).</p>
+                        </span>
+
+                        <h5>Como pagamos las facturas?</h5>
+                        <span class=\"color-text-a\">
+                            <p>El día de tu llegada es cuando formalizas el contrato debiendo abornar en ese momento 150 €, en concepto de adelanto de los suministros. </p>
+
+                             <p> Este importe se lo entregamos al propietario</p>
+
+                            <p>Generalmente y con un consumo responsable, este adelanto de dinero deberá ser suficiente para cubir
+                                tus gastos de agua, luz y gas</p>
+
+                            <p>En caso de consumir más de lo aportado, el propietario podrá exigir un pequeno adelanto para futuras facturas</p>
+                        </span>
+                    </div>
+                </div>
+
+                ";
+        // line 160
+        echo "                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Contratos</h1>
+                        <h5>Que fianza tengo que entregar? Cuándo y cómo lo hago?</h5>
+                        <span class=\"color-text-a\">
+                            <p>
+                                Como el cualquier alquiler, se entrega una fianza por si hubieran impagos o desperfectos
+                                producido por el inquilino en la vivienda/habitación.
+                            </p>
+
+                            <p>
+                                Las habitaciónes que gestiona Helloflatmate van sujetas a una fianza de 350 € si tienen baño
+                                propio o terraza propia. Para el resto de habitaciones la fianza a entregar es de 300 €.
+                            </p>
+                        </span>
+
+                        <h5>Qué sucede si quiero romper el contrato?</h5>
+                            <span class=\"color-text-a\">
+                                </p> Depende:<p>
+
+                                </p>
+                                    Si quieres romper el contrato porque el piso en el que estas no esta en condiciones y el propietario
+                                    no se quiere hacer cargos de las reparaciones pertinentes (siempre que le correspondan a el según la
+                                    LAU Ley de Arrendamientos Urbanos), podrás cambiarte de vivienda sin perder la fianza.
+                                <p>
+
+                                <p>
+                                    Si quieres romper el contrato por algúna otra razón, lamentablemente, la fianza se la quedará el
+                                    propietario por incumplimiento de contrato, pero NO serás responsables del pago del resto de mensualidades.
+                                </p>
+
+                                <p>
+                                    Helloflatmate pacta por el FlatMate con el propietario, una serie de cláusulas para que el
+                                    inquilino no pague el resto de meses que le queden, figurando así en el contrato que tu firmas.
+                                </p>
+                            </span>
+                        <h5>Nunca deberé pagar los meses restantes si me voy del piso?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                    Si tu comportamiento en la vivienda ha sido correcto, no deberás.
+                                </p>
+
+                                <p>
+                                    Pero si eres expulsado de la vivienda porque tu comportamiento ha sido irrespetuoso con tus compañeros, agentes,
+                                    vecinos o vives en condiciones poco higiénicas e incumples las normas de convivencia que con tus compañeros de
+                                    piso hayáis acordado o las normas de conviviencia propias de un vecindario, deberás abonar dichas mensualidades
+                                    como figura en el contrato que firmas.
+                                </p>
+                            </span>
+                        <h5>Porque debo pagar si me expulsan de la vivienda?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                    Muy sencillo, Hellofaltmate trabaja muy duro obteniendo pisos de calidad para estudiantes y negocia con los
+                                    propietarios para que firmen contratos de 5 o 10 meses de duración, permitiendole al inquilino ahorrarse dinero
+                                    al no estar obligado a hacer un contrato de un año como mínimo.
+                                </p>
+
+                                <p>
+                                    El propietario no es responsabe de la marcha de los inquilinos porque la convivencia con uno de sus compañeros es mala,
+                                    proque este no es higiénico(por ejemplo), de su agrado o por cualquier otra razon.
+                                </p>
+
+                                <p>
+                                    En caso de que seas expulsado por mala convivencia, deberás abonar todas las mensualidades restantes
+                                    hasta la finalización de tu contrato.
+                                </p>
+
+                                <p>
+                                    Si un inquilino decide irse por caudas ajenas a su voluntad, el/los inquilino/s restante/s deberá/n
+                                    abonar la habitación desocupada, a partes iguales, si el propietario deja de percibier la totalidad
+                                    del aquiler.
+                                </p>
+                            </span>
+                        <h5>Tengo un contrato de 5 meses. Qué tengo que hacer si quiero renovar contrato hasta Junio?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                    Es muy fácil!
+                                </p>
+
+                                <p>
+                                    Para que tu habitación/Apartamento no salga publica para los siguientes 5 mese, tienes que avisar a Helloflatmate
+                                    con 2 meses de antelación  de la finalización de tu contrato, para que Helloflatmate proceda a bloquear
+                                    la disponibilidad de tu habitación.
+                                </p>
+
+                                <p>
+                                    Una vez hecho esto ven a la oficina y renueva contrato.
+                                </p>
+                            </span>
+
+                        <h5>He predido las llaves del piso. Que hago?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                   Si has perdido las llaves o te las han robado deberás de ponerte en contacto con el propietario.
+                                </p>
+
+                                <p>
+                                    Este gasto de reposición de llaves, deberán ser abonados por la persona que perdió las llaves.
+                                </p>
+                            </span>
+
+                        <h5>Cuándo se devuelve la fianza?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                    Como en cualquier alquiler en España, las finazas se devuelve una vez que las factura
+                                    de agua, luz y gas, son emitidas por las diferentes compañías.
+                                </p>
+
+                                <p>
+                                    Por este motivo, puede llegar a retrasarse la devolución en un mes, ya que la emisión de dicha factura se
+                                    realiza el mismo día que la propiedad firmó el contrato con las diferentes empresas de luz,agua, gas, etc ..
+                                </p>
+
+                                <p>
+                                    Durante el período de espera la propiedad realizará una visita a la vivienda
+                                    para evaluar el estado de la misma.
+                                </p>
+
+                                <p>
+                                    También se puede intentar quedar con el propietario en el piso el día de tu salida
+                                    y entregarle las llaves a él y revisar el piso conjuntamente. Pero para ell deberéis
+                                    organizaros entre vosotros.
+                                </p>
+                            </span>
+
+                        <h5>Que hago si tengo problemas de convivencia con mis Flatmates?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                    Lo primero que debes hacer es ponerte en contacto con la oficina y explicar lo que
+                                    sucede exactamente, así poder evaluar la situacion y actuar de la forma más conveniente.
+                                </p>
+                            </span>
+
+                        <h5>Que sucede si un companero de piso ocasiona problemas graves de convivencica?</h5>
+                        <span class=\"color-text-a\">
+                                <p>
+                                    Si los problemas de convivencica vienen porque algúno de los inquilinos incumple
+                                    puntos del contrato, podrá ser expulsado del piso, se retirará la fianza y la propiedad
+                                    podrá reclamar los meses que falten hasta la finalización de contrato.
+                                </p>
+                            </span>
+                    </div>
+                </div>
+
+                ";
+        // line 305
+        echo "                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Cancelaciones</h1>
+                        <h5>Como puedo cancelar mi reserva?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Si decides cancelar tu reserva, tendras un período de 30 días antes de tu llegada para
+                               hacerlo y recibir el reembolso total del pago realizado.
+                           </p>
+
+                            <p>
+                                Las cancelaciones realizadas con más de 15 días a su llegada, recibirán un total de 50 %
+                                del importe de reserva.
+                           </p>
+
+                            <p>
+                                Cancelaciones realizadas con menos de 15 días de antelacion a la llegada, no daran lugar
+                                a nigún tipo de reembolso.
+                           </p>
+
+                            <p>
+                               Si, por el contrario, somos nosotros quienes por motivos ajenos a nuestra voluntad
+                                tenemos que cancelar una reserva, será siempre antes de 30 días del inicio de contrato. Nunca
+                                te dejaremos sin habitación, te proporcionaremos otra lo más parecida posible y en la
+                                misma zona.
+                            </p>
+
+                            <p>
+                                También tendrás la opción de pedir el reembolso de tu dinero y buscarte la habitación por
+                                tu cuenta, sin derecho a reclamación alguna a Helloflatmate.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+
+                ";
+        // line 341
+        echo "                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Pagos y Fianza</h1>
+                        <h5>Que día se paga la mensualidad?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               La mensualidad se deben de hacer efectiva entre el 20 y 25 de cada mes por adelantado.
+                           </p>
+
+                            <p>
+                               Por ejemplo: Entre el 20 y el 25 de Abril, deberás de abonar la renta de Mayo.
+                           </p>
+                        </span>
+
+                        <h5>Qué es lo que se paga con la reserva de la habitación a través de la Web de HelloFlatmate?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               La persona que reserva la habitación esta abonando el primer mes de contrato por la
+                               habitación seleccionada junto con el pago de la tasa de la agencia.
+                           </p>
+                        </span>
+
+                        <h5>Las facturas estan incluidas?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Los pisos no tienen las facturas de suminiestros incluidas. Nuestros FlatMates estan exentos
+                               del pago de los gasto comunitarios del edificio (ascensor, limpieza, etc).
+                           </p>
+                        </span>
+
+                        <h5>Como pagamos las facturas?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                                El día de tu llegada es cuando se formaliza el contrato en la oficina de Helloflatmate debiendo abonar
+                                en ese momento 150 € en concepto de adelanto para suministros.
+                           </p>
+
+                           <p>
+                              Este importe se lo entregaremos al propietario.
+                           </p>
+
+                           <p>
+                               Generalmente y con un consumo responsable, este adelanto de dinero deberá de ser suficiente
+                               para cubri tus gastos de agua,luz y gas.
+                           </p>
+
+                           <p>
+                                En caso de consumir más, el propietario podrá exigír un pequeño adelanto para futuras facturas.
+                           </p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Mantenimiento</h1>
+                        <h5>Las reparaciones están incluidas en los servicios de Helloflatmate?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                                El propietario gestion el mantenimiento del piso pero sólo cubre las reparaciones
+                               que le correspondan por la Ley de Arrendamientos Urbanos (LAU).
+                           </p>
+                        </span>
+
+                        <h5>Cuándo le corresponden los daños a la propiedad? Y a los inquilinos?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Las reparaciones de electrodomésticos, TV, calderas, fusibles, etc .. que
+                               se estropean por un uso normal tiene obligación de reparalo o sustituirlo
+                               el propietario y deberás ponerte en contacto con él para que lo gestione
+                               enviando su personal de mantenimiento o el de Helloflatmate.
+                           </p>
+
+                            <p>
+                               Si el personal de mantenimiento detecta que la avería se ha producido por
+                                un mal uso de los inquilinos, estos deberán hacerse responsables.
+                           </p>
+
+                            <p>
+                                Si no se hicieran responsables, el propietario estará facultado para actuar
+                                de la forma que considere más conveniente, pero siempre dentro de la legalidad
+                                vigente y bajo la supervisión de Helloflatmate.
+                           </p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Micelánea</h1>
+                        <h5>Quienes seran mis compañeros?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Helloflatmate aloja a estudiantes o a personas jovenes en prácticas de empresas de diversas nacionalidades,
+                               siempre y cuando sean menores de 30 años.
+                           </p>
+                        </span>
+
+                        <h5>Hay pisos solo para chicas?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Helloflatmate dispone de pisos mixtos y pisos sólo para chicas.
+                           </p>
+                        </span>
+
+                        <h5>Puede venir familia y amigos a visitarme y dormir en el piso?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Claro, no hoy ningún problema, pero se tiene que informar a la oficina y debes
+                               hablar con tus FlatMates y que todos esten de acuerdo.
+                           </p>
+                        </span>
+
+                        <h5>Se admiten mascotas?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               No.
+                           </p>
+                        </span>
+
+                        <h5>Tengo algún descuento por traer a algún amigo?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Claro! Si eres FlatMate tendrás un descuento en el alquiler de 20 € en la primera mensualidad.
+                           </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+";
+        
+        $__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02->leave($__internal_319393461309892924ff6e74d6d6e64287df64b63545b994e100d4ab223aed02_prof);
+
+        
+        $__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e->leave($__internal_085b0142806202599c7fe3b329164a92397d8978207a37e79d70b8c52599e33e_prof);
+
+    }
+
+    public function getTemplateName()
+    {
+        return "question/helloowners.html.twig";
+    }
+
+    public function isTraitable()
+    {
+        return false;
+    }
+
+    public function getDebugInfo()
+    {
+        return array (  409 => 341,  372 => 305,  226 => 160,  182 => 117,  137 => 73,  110 => 47,  97 => 35,  65 => 4,  56 => 3,  27 => 1,);
+    }
+
+    public function getSourceContext()
+    {
+        return new Source("{% extends 'base.html.twig' %}
+
+{% block body %}
+
+    <!--Intro Jumbotron-->
+    <div class=\"banner-magin-top\">
+        <div class=\"jumbotron\" style=\"background-image: url(assets/img/home/carusel/slide-3.jpg)\">
+            <div class=\"container\">
+                <div class=\"row\">
+                    <div class=\"col-lg-12\">
+                        <div class=\"intro-body\" style=\"text-align: center\">
+                            <h1 class=\"intro-title\">
+                                <span style=\"color:white;\">HelloOwners </span>
+                            </h1>
+                            <h5 class=\"intro-title\">
+                                <span style=\"color:white;\">Preguntas más frecuentes </span>
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!--End Jumbotron-->
+
+
+    <!--/ Intro Single star /-->
+    <section class=\"question-margin-top\">
+        <div class=\"container\">
+            <div class=\"row\">
+
+                {#Reserva#}
+                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Reserva</h1>
+                        <h5>Tengo que pagar algúna comisión por la reserva de habitación o el alquiler de una habitación?</h5>
+                        <span class=\"color-text-a\">
+                           <p>Estas habitaciones no tienen comisión pero, el estudiante deberá abonar los gastos
+                               de formalización de contrato en un unico pago de 90 € (+IVA).</p>
+                        </span>
+                    </div>
+                </div>
+
+                {#Llegada#}
+                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Llegada</h1>
+                        <span class=\"color-text-a\">
+                            <p>
+                                Una vez hayas reservado a través de nuestra web recibirás un e-mail de nuestros agentes
+                                para organizar tu llegada. Sigue las indicaciones de nuestros agentes y se de los primeros
+                                en organizar tu llegada con Helloflatmate y evitar agobios.
+                            </p>
+                        </span>
+                        <h5>Si llego al piso el 15 de Septiembre por ejemplo, tengo que pagar todo el mes?</h5>
+                        <span class=\"color-text-a\">
+                           <p>La habitación se cobra por mes entero, si haces una reserva el 25 de Agosto para entrar en la habitación
+                           el 15 de Septiembre hasta el 30 de Junio, se deberá abonar el mes completo ya que pudiera darse el caso de que
+                           hubiera una persona que quisiera entrar antes y la propiedad perdería beneficios.</p>
+                        </span>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Si un FlatMate contrata una habitación el día 15 de un mes para entrar el 16 pagará únicamente
+                               la parte proporcional del mes.
+                           </p>
+                        </span>
+                    </div>
+                </div>
+
+                {#Mi Primer día en el apartamento#}
+                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Mi Primer día en el apartamento</h1>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Si has reservado habitación o piso a través de la Web de Helloflatmate te acompañaremos desde el
+                               aeropuerto a tu nuevo piso, explicandote como funcionan las cosas en éste.
+                           </p>
+                            <p>
+                                El estudiante debe avisar a la oficina si al llegar, encuentra algún desperfecto.
+                            </p>
+                            <p>
+                                Si el estudiante, no dice nada en los 3 primeros días, se hace responsable de los desperfectos y carencia
+                                que pudieran ser ocasionadas en el apartamento.
+                            </p>
+                            <p>
+                                Todos los apartamentos estan equipados con el mismo menaje de cocina:
+                            </p>
+                            <ul>
+                                <li>6 Vasos</li>
+                                <li>6 Platos</li>
+                                <li>6 Platos de sopa</li>
+                                <li>6 Platos de postre</li>
+                                <li>6 Tenedores</li>
+                                <li>6 Cuchillos de punta redonda</li>
+                                <li>6 Cuchillos de sierra</li>
+                                <li>6 Cucharas de sopa</li>
+                                <li>6 Cucharas de postre</li>
+                                <li>1 Espátula, cucharón, espumadera</li>
+                                <li>1 Abridor o sacacorchos</li>
+                                <li>2 Ollas</li>
+                                <li>2 Sartenes</li>
+                            </ul>
+
+                            <p>
+                                A la finalización del contrato de los inquilinos, se revisaran las existencias del menaje, siendo
+                                descontada de la fianza de los inquilinos cualquier perdida o rotura del material suministrado.
+                            </p>
+
+                        </span>
+                    </div>
+                </div>
+
+                {#Suministros / Internet#}
+                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Suministros / Internet</h1>
+                        <h5>Los pisos tienen internet?</h5>
+                        <span class=\"color-text-a\">
+                            <p>Sí, todas las viviendas disponen de Internet wifi 300 megas con la empresa ONO o en su defecto Movistar</p>
+                        </span>
+
+                        <h5>Cómo se realizan los pagos de internet?</h5>
+                        <span class=\"color-text-a\">
+                            <p>
+                                El día de tu llegada es cuando se formaliza el contrato, debes abonar en ese momento
+                                75 € (IVA incluido) por el servicio de internet, que cubrira 5 meses de consumo de internet.
+                                Haciendo entrega de dicha cantidad para que se pueda abonar a la compañía que suministra dicho
+                                servicio.
+                            </p>
+                            <p>
+                                Si tu estancia es de 10 meses deberás abonar 75 € en Septiembre y 75 € en Febrero.
+                            </p>
+                        </span>
+
+                        <h5>Las facturas están incluidad?</h5>
+                        <span class=\"color-text-a\">
+                            <p>Las facturas no están incluidas.</p>
+                            <p>Debes saber que nuestros FlatMates están exento de pago de los gastos comunitarios del edificio
+                                (ascensor, limpieza de la escalera, reparaciones en el edificio, etc..).</p>
+                        </span>
+
+                        <h5>Como pagamos las facturas?</h5>
+                        <span class=\"color-text-a\">
+                            <p>El día de tu llegada es cuando formalizas el contrato debiendo abornar en ese momento 150 €, en concepto de adelanto de los suministros. </p>
+
+                             <p> Este importe se lo entregamos al propietario</p>
+
+                            <p>Generalmente y con un consumo responsable, este adelanto de dinero deberá ser suficiente para cubir
+                                tus gastos de agua, luz y gas</p>
+
+                            <p>En caso de consumir más de lo aportado, el propietario podrá exigir un pequeno adelanto para futuras facturas</p>
+                        </span>
+                    </div>
+                </div>
+
+                {#Contratos#}
+                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Contratos</h1>
+                        <h5>Que fianza tengo que entregar? Cuándo y cómo lo hago?</h5>
+                        <span class=\"color-text-a\">
+                            <p>
+                                Como el cualquier alquiler, se entrega una fianza por si hubieran impagos o desperfectos
+                                producido por el inquilino en la vivienda/habitación.
+                            </p>
+
+                            <p>
+                                Las habitaciónes que gestiona Helloflatmate van sujetas a una fianza de 350 € si tienen baño
+                                propio o terraza propia. Para el resto de habitaciones la fianza a entregar es de 300 €.
+                            </p>
+                        </span>
+
+                        <h5>Qué sucede si quiero romper el contrato?</h5>
+                            <span class=\"color-text-a\">
+                                </p> Depende:<p>
+
+                                </p>
+                                    Si quieres romper el contrato porque el piso en el que estas no esta en condiciones y el propietario
+                                    no se quiere hacer cargos de las reparaciones pertinentes (siempre que le correspondan a el según la
+                                    LAU Ley de Arrendamientos Urbanos), podrás cambiarte de vivienda sin perder la fianza.
+                                <p>
+
+                                <p>
+                                    Si quieres romper el contrato por algúna otra razón, lamentablemente, la fianza se la quedará el
+                                    propietario por incumplimiento de contrato, pero NO serás responsables del pago del resto de mensualidades.
+                                </p>
+
+                                <p>
+                                    Helloflatmate pacta por el FlatMate con el propietario, una serie de cláusulas para que el
+                                    inquilino no pague el resto de meses que le queden, figurando así en el contrato que tu firmas.
+                                </p>
+                            </span>
+                        <h5>Nunca deberé pagar los meses restantes si me voy del piso?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                    Si tu comportamiento en la vivienda ha sido correcto, no deberás.
+                                </p>
+
+                                <p>
+                                    Pero si eres expulsado de la vivienda porque tu comportamiento ha sido irrespetuoso con tus compañeros, agentes,
+                                    vecinos o vives en condiciones poco higiénicas e incumples las normas de convivencia que con tus compañeros de
+                                    piso hayáis acordado o las normas de conviviencia propias de un vecindario, deberás abonar dichas mensualidades
+                                    como figura en el contrato que firmas.
+                                </p>
+                            </span>
+                        <h5>Porque debo pagar si me expulsan de la vivienda?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                    Muy sencillo, Hellofaltmate trabaja muy duro obteniendo pisos de calidad para estudiantes y negocia con los
+                                    propietarios para que firmen contratos de 5 o 10 meses de duración, permitiendole al inquilino ahorrarse dinero
+                                    al no estar obligado a hacer un contrato de un año como mínimo.
+                                </p>
+
+                                <p>
+                                    El propietario no es responsabe de la marcha de los inquilinos porque la convivencia con uno de sus compañeros es mala,
+                                    proque este no es higiénico(por ejemplo), de su agrado o por cualquier otra razon.
+                                </p>
+
+                                <p>
+                                    En caso de que seas expulsado por mala convivencia, deberás abonar todas las mensualidades restantes
+                                    hasta la finalización de tu contrato.
+                                </p>
+
+                                <p>
+                                    Si un inquilino decide irse por caudas ajenas a su voluntad, el/los inquilino/s restante/s deberá/n
+                                    abonar la habitación desocupada, a partes iguales, si el propietario deja de percibier la totalidad
+                                    del aquiler.
+                                </p>
+                            </span>
+                        <h5>Tengo un contrato de 5 meses. Qué tengo que hacer si quiero renovar contrato hasta Junio?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                    Es muy fácil!
+                                </p>
+
+                                <p>
+                                    Para que tu habitación/Apartamento no salga publica para los siguientes 5 mese, tienes que avisar a Helloflatmate
+                                    con 2 meses de antelación  de la finalización de tu contrato, para que Helloflatmate proceda a bloquear
+                                    la disponibilidad de tu habitación.
+                                </p>
+
+                                <p>
+                                    Una vez hecho esto ven a la oficina y renueva contrato.
+                                </p>
+                            </span>
+
+                        <h5>He predido las llaves del piso. Que hago?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                   Si has perdido las llaves o te las han robado deberás de ponerte en contacto con el propietario.
+                                </p>
+
+                                <p>
+                                    Este gasto de reposición de llaves, deberán ser abonados por la persona que perdió las llaves.
+                                </p>
+                            </span>
+
+                        <h5>Cuándo se devuelve la fianza?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                    Como en cualquier alquiler en España, las finazas se devuelve una vez que las factura
+                                    de agua, luz y gas, son emitidas por las diferentes compañías.
+                                </p>
+
+                                <p>
+                                    Por este motivo, puede llegar a retrasarse la devolución en un mes, ya que la emisión de dicha factura se
+                                    realiza el mismo día que la propiedad firmó el contrato con las diferentes empresas de luz,agua, gas, etc ..
+                                </p>
+
+                                <p>
+                                    Durante el período de espera la propiedad realizará una visita a la vivienda
+                                    para evaluar el estado de la misma.
+                                </p>
+
+                                <p>
+                                    También se puede intentar quedar con el propietario en el piso el día de tu salida
+                                    y entregarle las llaves a él y revisar el piso conjuntamente. Pero para ell deberéis
+                                    organizaros entre vosotros.
+                                </p>
+                            </span>
+
+                        <h5>Que hago si tengo problemas de convivencia con mis Flatmates?</h5>
+                            <span class=\"color-text-a\">
+                                <p>
+                                    Lo primero que debes hacer es ponerte en contacto con la oficina y explicar lo que
+                                    sucede exactamente, así poder evaluar la situacion y actuar de la forma más conveniente.
+                                </p>
+                            </span>
+
+                        <h5>Que sucede si un companero de piso ocasiona problemas graves de convivencica?</h5>
+                        <span class=\"color-text-a\">
+                                <p>
+                                    Si los problemas de convivencica vienen porque algúno de los inquilinos incumple
+                                    puntos del contrato, podrá ser expulsado del piso, se retirará la fianza y la propiedad
+                                    podrá reclamar los meses que falten hasta la finalización de contrato.
+                                </p>
+                            </span>
+                    </div>
+                </div>
+
+                {#Cancelaciones#}
+                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Cancelaciones</h1>
+                        <h5>Como puedo cancelar mi reserva?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Si decides cancelar tu reserva, tendras un período de 30 días antes de tu llegada para
+                               hacerlo y recibir el reembolso total del pago realizado.
+                           </p>
+
+                            <p>
+                                Las cancelaciones realizadas con más de 15 días a su llegada, recibirán un total de 50 %
+                                del importe de reserva.
+                           </p>
+
+                            <p>
+                                Cancelaciones realizadas con menos de 15 días de antelacion a la llegada, no daran lugar
+                                a nigún tipo de reembolso.
+                           </p>
+
+                            <p>
+                               Si, por el contrario, somos nosotros quienes por motivos ajenos a nuestra voluntad
+                                tenemos que cancelar una reserva, será siempre antes de 30 días del inicio de contrato. Nunca
+                                te dejaremos sin habitación, te proporcionaremos otra lo más parecida posible y en la
+                                misma zona.
+                            </p>
+
+                            <p>
+                                También tendrás la opción de pedir el reembolso de tu dinero y buscarte la habitación por
+                                tu cuenta, sin derecho a reclamación alguna a Helloflatmate.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+
+                {#Pagos y Fianza#}
+                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Pagos y Fianza</h1>
+                        <h5>Que día se paga la mensualidad?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               La mensualidad se deben de hacer efectiva entre el 20 y 25 de cada mes por adelantado.
+                           </p>
+
+                            <p>
+                               Por ejemplo: Entre el 20 y el 25 de Abril, deberás de abonar la renta de Mayo.
+                           </p>
+                        </span>
+
+                        <h5>Qué es lo que se paga con la reserva de la habitación a través de la Web de HelloFlatmate?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               La persona que reserva la habitación esta abonando el primer mes de contrato por la
+                               habitación seleccionada junto con el pago de la tasa de la agencia.
+                           </p>
+                        </span>
+
+                        <h5>Las facturas estan incluidas?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Los pisos no tienen las facturas de suminiestros incluidas. Nuestros FlatMates estan exentos
+                               del pago de los gasto comunitarios del edificio (ascensor, limpieza, etc).
+                           </p>
+                        </span>
+
+                        <h5>Como pagamos las facturas?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                                El día de tu llegada es cuando se formaliza el contrato en la oficina de Helloflatmate debiendo abonar
+                                en ese momento 150 € en concepto de adelanto para suministros.
+                           </p>
+
+                           <p>
+                              Este importe se lo entregaremos al propietario.
+                           </p>
+
+                           <p>
+                               Generalmente y con un consumo responsable, este adelanto de dinero deberá de ser suficiente
+                               para cubri tus gastos de agua,luz y gas.
+                           </p>
+
+                           <p>
+                                En caso de consumir más, el propietario podrá exigír un pequeño adelanto para futuras facturas.
+                           </p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Mantenimiento</h1>
+                        <h5>Las reparaciones están incluidas en los servicios de Helloflatmate?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                                El propietario gestion el mantenimiento del piso pero sólo cubre las reparaciones
+                               que le correspondan por la Ley de Arrendamientos Urbanos (LAU).
+                           </p>
+                        </span>
+
+                        <h5>Cuándo le corresponden los daños a la propiedad? Y a los inquilinos?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Las reparaciones de electrodomésticos, TV, calderas, fusibles, etc .. que
+                               se estropean por un uso normal tiene obligación de reparalo o sustituirlo
+                               el propietario y deberás ponerte en contacto con él para que lo gestione
+                               enviando su personal de mantenimiento o el de Helloflatmate.
+                           </p>
+
+                            <p>
+                               Si el personal de mantenimiento detecta que la avería se ha producido por
+                                un mal uso de los inquilinos, estos deberán hacerse responsables.
+                           </p>
+
+                            <p>
+                                Si no se hicieran responsables, el propietario estará facultado para actuar
+                                de la forma que considere más conveniente, pero siempre dentro de la legalidad
+                                vigente y bajo la supervisión de Helloflatmate.
+                           </p>
+                        </span>
+                    </div>
+                </div>
+
+                <div class=\"col-md-12 col-lg-12\">
+                    <div class=\"title-single-box\">
+                        <h1 class=\"title-single\">Micelánea</h1>
+                        <h5>Quienes seran mis compañeros?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Helloflatmate aloja a estudiantes o a personas jovenes en prácticas de empresas de diversas nacionalidades,
+                               siempre y cuando sean menores de 30 años.
+                           </p>
+                        </span>
+
+                        <h5>Hay pisos solo para chicas?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Helloflatmate dispone de pisos mixtos y pisos sólo para chicas.
+                           </p>
+                        </span>
+
+                        <h5>Puede venir familia y amigos a visitarme y dormir en el piso?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Claro, no hoy ningún problema, pero se tiene que informar a la oficina y debes
+                               hablar con tus FlatMates y que todos esten de acuerdo.
+                           </p>
+                        </span>
+
+                        <h5>Se admiten mascotas?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               No.
+                           </p>
+                        </span>
+
+                        <h5>Tengo algún descuento por traer a algún amigo?</h5>
+                        <span class=\"color-text-a\">
+                           <p>
+                               Claro! Si eres FlatMate tendrás un descuento en el alquiler de 20 € en la primera mensualidad.
+                           </p>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+{% endblock %}
+", "question/helloowners.html.twig", "C:\\xampp\\htdocs\\HelloFlatmate\\templates\\question\\helloowners.html.twig");
+    }
+}
